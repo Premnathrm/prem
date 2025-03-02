@@ -50,8 +50,6 @@ public class Main {
         System.out.print("Enter initial balance: ");
         int initialBalance = scanner.nextInt();
         BankAccount account = new BankAccount(accountNumber, initialBalance);
-
-        // Display the initial account details
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println(" Balance: " + account.getBalance());
         System.out.print("Enter deposit amount: ");
